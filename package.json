@@ -8,6 +8,7 @@
     "password-generator": "^2.1.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   }
 }
