@@ -6,5 +6,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "password-generator": "^2.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
